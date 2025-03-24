@@ -2,40 +2,40 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-24T08:08:40 IST" name="Default suite" finished-at="2025-03-24T08:09:03 IST" duration-ms="22991">
+  <suite started-at="2025-03-24T10:19:47 IST" name="Default suite" finished-at="2025-03-24T10:20:30 IST" duration-ms="42579">
     <groups>
     </groups>
-    <test started-at="2025-03-24T08:08:40 IST" name="Default test" finished-at="2025-03-24T08:09:03 IST" duration-ms="22991">
+    <test started-at="2025-03-24T10:19:47 IST" name="Default test" finished-at="2025-03-24T10:20:30 IST" duration-ms="42579">
       <class name="org.blazedemo.BlazeDemo">
-        <test-method is-config="true" signature="browserSetup()[pri:0, instance:org.blazedemo.BlazeDemo@11392934]" started-at="2025-03-24T08:08:40 IST" name="browserSetup" finished-at="2025-03-24T08:08:42 IST" duration-ms="2108" status="PASS">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:org.blazedemo.BlazeDemo@11392934]" started-at="2025-03-24T10:19:47 IST" name="browserSetup" finished-at="2025-03-24T10:19:56 IST" duration-ms="8547" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method signature="launchApplication()[pri:0, instance:org.blazedemo.BlazeDemo@11392934]" started-at="2025-03-24T08:08:42 IST" name="launchApplication" finished-at="2025-03-24T08:08:44 IST" duration-ms="1891" status="PASS">
+        <test-method signature="launchApplication()[pri:0, instance:org.blazedemo.BlazeDemo@11392934]" started-at="2025-03-24T10:19:56 IST" name="launchApplication" finished-at="2025-03-24T10:20:00 IST" duration-ms="4135" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="selectPhoneAndAddToCart()[pri:1, instance:org.blazedemo.BlazeDemo@11392934]" started-at="2025-03-24T08:08:44 IST" name="selectPhoneAndAddToCart" finished-at="2025-03-24T08:08:48 IST" duration-ms="3520" status="PASS">
+        <test-method signature="selectPhoneAndAddToCart()[pri:1, instance:org.blazedemo.BlazeDemo@11392934]" started-at="2025-03-24T10:20:00 IST" name="selectPhoneAndAddToCart" finished-at="2025-03-24T10:20:03 IST" duration-ms="3463" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectPhoneAndAddToCart -->
-        <test-method signature="selectLaptopAndAddToCart()[pri:2, instance:org.blazedemo.BlazeDemo@11392934]" started-at="2025-03-24T08:08:48 IST" name="selectLaptopAndAddToCart" finished-at="2025-03-24T08:08:50 IST" duration-ms="2748" status="PASS">
+        <test-method signature="selectLaptopAndAddToCart()[pri:2, instance:org.blazedemo.BlazeDemo@11392934]" started-at="2025-03-24T10:20:03 IST" name="selectLaptopAndAddToCart" finished-at="2025-03-24T10:20:07 IST" duration-ms="3161" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectLaptopAndAddToCart -->
-        <test-method signature="selectMonitorAndAddToCart()[pri:3, instance:org.blazedemo.BlazeDemo@11392934]" started-at="2025-03-24T08:08:50 IST" name="selectMonitorAndAddToCart" finished-at="2025-03-24T08:08:54 IST" duration-ms="4160" status="PASS">
+        <test-method signature="selectMonitorAndAddToCart()[pri:3, instance:org.blazedemo.BlazeDemo@11392934]" started-at="2025-03-24T10:20:07 IST" name="selectMonitorAndAddToCart" finished-at="2025-03-24T10:20:21 IST" duration-ms="14101" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectMonitorAndAddToCart -->
-        <test-method signature="removePhoneAndPlaceOrder()[pri:4, instance:org.blazedemo.BlazeDemo@11392934]" started-at="2025-03-24T08:08:54 IST" name="removePhoneAndPlaceOrder" finished-at="2025-03-24T08:09:03 IST" duration-ms="8131" status="PASS">
+        <test-method signature="removePhoneAndPlaceOrder()[pri:4, instance:org.blazedemo.BlazeDemo@11392934]" started-at="2025-03-24T10:20:21 IST" name="removePhoneAndPlaceOrder" finished-at="2025-03-24T10:20:29 IST" duration-ms="8656" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removePhoneAndPlaceOrder -->
-        <test-method signature="verifySuccesfullMessage()[pri:5, instance:org.blazedemo.BlazeDemo@11392934]" started-at="2025-03-24T08:09:03 IST" name="verifySuccesfullMessage" finished-at="2025-03-24T08:09:03 IST" duration-ms="135" status="PASS">
+        <test-method signature="verifySuccesfullMessage()[pri:5, instance:org.blazedemo.BlazeDemo@11392934]" started-at="2025-03-24T10:20:29 IST" name="verifySuccesfullMessage" finished-at="2025-03-24T10:20:30 IST" duration-ms="148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySuccesfullMessage -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.blazedemo.BlazeDemo@11392934]" started-at="2025-03-24T08:09:03 IST" name="closeBrowser" finished-at="2025-03-24T08:09:03 IST" duration-ms="214" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.blazedemo.BlazeDemo@11392934]" started-at="2025-03-24T10:20:30 IST" name="closeBrowser" finished-at="2025-03-24T10:20:30 IST" duration-ms="278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
