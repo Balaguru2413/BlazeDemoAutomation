@@ -151,7 +151,7 @@ public class BlazeDemo {
 
 	@Test(priority = 5)
 	// verifying succesfull message with correct amount and purchase id
-	public void verifySuccesfullMessage() {
+	public void verifySuccesfullMessage() throws InterruptedException {
 		// verifying succesfull message
 		String actual = "Thank you for your purchase!";
 		PurchaseIdPage p = new PurchaseIdPage();
@@ -169,12 +169,13 @@ public class BlazeDemo {
 		int actualAmount = laptopPrice + monitorPrice;
 		Assert.assertEquals(actualAmount, expectedAmount, "Total amount mismatched");
 		System.out.println("Total amount matches with added product");
+		Thread.sleep(1000);
 
 	}
 
 	@AfterClass
 	public void closeBrowser() {
-		driver.close();
+		driver.quit();
 	}
 
 }

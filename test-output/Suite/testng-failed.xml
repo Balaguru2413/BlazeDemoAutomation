@@ -10,8 +10,7 @@
         <methods>
           <include name="closeBrowser"/>
           <include name="browserSetup"/>
-          <include name="verifySuccesfullMessage"/>
-          <include name="removePhoneAndPlaceOrder"/>
+          <include name="selectLaptopAndAddToCart"/>
         </methods>
       </class> <!-- org.blazedemo.BlazeDemo -->
     </classes>
